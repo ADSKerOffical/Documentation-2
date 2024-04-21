@@ -8,6 +8,7 @@ repeat
     count = count + 1
 until count == 5
 
+• This script stops when the count is equal to 5 •
 • This script is very similar to the function "for i = 1, 4 do" •
 • You can also add a delay to the script •
 
