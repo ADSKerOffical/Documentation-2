@@ -1,0 +1,43 @@
+                 • repeat, break, untill •
+• In addition to cycles, there are other cycles which I will now talk about •
+• Let's figure it out, first script: •
+
+local count = 0
+repeat
+    print(count)
+    count = count + 1
+until count == 5
+
+• This script is very similar to the function "for i = 1, 4 do" •
+• You can also add a delay to the script •
+
+local count = 0
+repeat
+  wait(1)
+    print(count)
+    count = count + 1
+until count == 5
+
+• let's deal with the following situation •
+• For example, we want the script to stop working after three uses •
+• Therefore we use "break" to make the script stop working: •
+
+local count = 0
+repeat
+    print(count)
+    count = count + 1
+    if count == 3 then
+        break
+    end
+until count == 5
+
+• Well, you can also make an loop: •
+
+local Count = 1
+repeat
+  wait(0.1)
+    print(Count)
+    Count = Count + 1
+until false
+
+• The delay is mandatory because if you don’t set a delay the game crash •
